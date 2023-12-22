@@ -39,7 +39,7 @@ public class ValidacoesListaTests
         Assert.False(resultado);
     }
 
-
+    [Fact]
     public void DeveMultiplicarOsElementosDaListaPor2()
     {     
         var lista = new List<int> { 5, 7, 8, 9 };
